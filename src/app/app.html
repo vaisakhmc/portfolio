@@ -1,7 +1,11 @@
 <main class="min-h-screen bg-background relative overflow-hidden bg-grid">
   <!-- Interactive Background Blur -->
-  <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/20 rounded-full blur-[120px] pointer-events-none"></div>
-  <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-primary/20 rounded-full blur-[120px] pointer-events-none"></div>
+  <div
+    class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/20 rounded-full blur-[120px] pointer-events-none">
+  </div>
+  <div
+    class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-primary/20 rounded-full blur-[120px] pointer-events-none">
+  </div>
 
   <!-- Hero Section -->
   <section class="max-w-6xl mx-auto px-6 pt-32 pb-20 mt-10" id="hero">
@@ -13,10 +17,12 @@
         Senior Software Engineer | <span class="text-primary font-semibold">Angular & AI Specialist</span>
       </p>
       <div class="flex gap-4">
-        <a href="mailto:mcv2468@gmail.com" class="bg-primary hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-full transition-all shadow-[0_0_20px_rgba(0,112,243,0.5)]">
+        <a href="mailto:mcv2468@gmail.com"
+          class="bg-primary hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-full transition-all shadow-[0_0_20px_rgba(0,112,243,0.5)]">
           Contact Me
         </a>
-        <a href="https://linkedin.com/in/vaisakhmc" target="_blank" class="glass-card hover:bg-white/10 text-white font-semibold py-3 px-8 rounded-full transition-all">
+        <a href="https://linkedin.com/in/vaisakhmc" target="_blank"
+          class="glass-card hover:bg-white/10 text-white font-semibold py-3 px-8 rounded-full transition-all">
           LinkedIn
         </a>
       </div>
@@ -25,7 +31,8 @@
 
   <!-- Stats Bar -->
   <section class="max-w-5xl mx-auto px-6 py-12" id="stats">
-    <div class="glass-card p-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-gray-800">
+    <div
+      class="glass-card p-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-gray-800">
       <div class="p-4">
         <h3 class="text-4xl font-bold text-primary mb-2">6+ Years</h3>
         <p class="text-gray-400 font-medium">Experience</p>
@@ -41,31 +48,112 @@
     </div>
   </section>
 
-  <!-- Work/Experience Bento Grid -->
-  <section class="max-w-6xl mx-auto px-6 py-20" id="work">
-    <h2 class="text-3xl md:text-5xl font-bold mb-12 text-center glow-text">Featured Work</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <!-- IKEA -->
-      <div class="glass-card p-10 relative overflow-hidden group">
-        <div class="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-        <h3 class="text-2xl font-bold mb-2">IKEA CONNECT</h3>
-        <p class="text-primary font-semibold mb-4">Lead Front-End Architect</p>
-        <p class="text-gray-400 mb-6 flex-grow">Architected scalable modules using Angular and RxJS, enhancing supply-chain transparency and global enterprise logistics.</p>
-        <div class="inline-block bg-primary/10 text-primary border border-primary/20 rounded-full px-4 py-2 font-bold mt-auto">
-          30% Performance Boost
+  <!-- Detailed Professional Experience -->
+  <section class="max-w-5xl mx-auto px-6 py-24" id="experience">
+    <div class="flex flex-col items-center mb-16">
+      <h2 class="text-3xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-300 glow-text text-center">
+        Professional Experience
+      </h2>
+      <div class="h-1 w-24 bg-primary mt-6 rounded-full shadow-[0_0_15px_rgba(0,112,243,0.8)]"></div>
+    </div>
+
+    <div class="relative border-l-2 border-primary/30 pl-8 md:pl-12 space-y-16">
+      
+      <!-- TCS Node -->
+      <div class="relative">
+        <!-- Node indicator -->
+        <div class="absolute -left-[41px] md:-left-[57px] top-1 w-5 h-5 bg-background border-4 border-primary rounded-full shadow-[0_0_15px_rgba(0,112,243,0.8)] z-10 animate-pulse"></div>
+        
+        <div class="glass-card p-8 md:p-10 relative group overflow-hidden transition-all duration-500 hover:border-primary/50">
+          <div class="absolute inset-0 bg-gradient-to-br from-blue-900/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+          
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 z-10 relative">
+            <div>
+              <h3 class="text-3xl font-bold mb-1 text-white group-hover:text-primary transition-colors">Tata Consultancy Services</h3>
+              <p class="text-xl text-primary/80 font-medium">Systems Engineer</p>
+            </div>
+            <div class="mt-4 md:mt-0 px-5 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary font-bold tracking-wide text-sm whitespace-nowrap shadow-[0_0_10px_rgba(0,112,243,0.2)]">
+              Jan 2022 – Present
+            </div>
+          </div>
+
+          <div class="space-y-5 text-gray-300 relative z-10 leading-relaxed">
+            <!-- Details -->
+            <div class="flex items-start gap-4">
+              <span class="text-primary mt-1 drop-shadow-[0_0_8px_rgba(0,112,243,0.8)] text-xl">▹</span>
+              <div>
+                <strong class="text-white font-semibold tracking-wide">Lead Front-End Architecture (IKEA CONNECT):</strong> Architected highly scalable modules utilizing Angular and RxJS. Enhanced core supply-chain transparency and global enterprise logistics, directly resulting in a <span class="bg-primary/20 text-blue-300 px-1.5 py-0.5 rounded border border-primary/30 ml-1">30% improvement</span> in application performance.
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <span class="text-primary mt-1 drop-shadow-[0_0_8px_rgba(0,112,243,0.8)] text-xl">▹</span>
+              <div>
+                <strong class="text-white font-semibold tracking-wide">System Modernization:</strong> Directed the full-scale refactoring of legacy Polymer/Web Components into a modernized Angular architecture. Successfully accelerated deployment cycles and drastically minimized existing technical debt.
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <span class="text-primary mt-1 drop-shadow-[0_0_8px_rgba(0,112,243,0.8)] text-xl">▹</span>
+              <div>
+                <strong class="text-white font-semibold tracking-wide">Enterprise Collaboration (Baker Hughes):</strong> Partnered directly with high-level stakeholders to design and deploy a massive, high-performance logistics platform, guaranteeing a pristine <span class="bg-primary/20 text-blue-300 px-1.5 py-0.5 rounded border border-primary/30 ml-1">98% defect-free</span> delivery standard.
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <span class="text-primary mt-1 drop-shadow-[0_0_8px_rgba(0,112,243,0.8)] text-xl">▹</span>
+              <div>
+                <strong class="text-white font-semibold tracking-wide">UX & Web Accessibility:</strong> Translated and executed complex UI/UX prototype designs into rigorous WCAG-compliant interfaces, delivering uncompromised accessibility protocols across all major browsers and devices.
+              </div>
+            </div>
+             <div class="flex items-start gap-4">
+              <span class="text-primary mt-1 drop-shadow-[0_0_8px_rgba(0,112,243,0.8)] text-xl">▹</span>
+              <div>
+                <strong class="text-white font-semibold tracking-wide">Innovation & AI Leadership:</strong> Hand-picked for the elite <span class="text-primary glow-text font-bold">tcs^AI</span> research track. Contributed to high-impact AI initiatives while continuously maintaining top-tier A-band performance markers.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Infosys Node -->
+      <div class="relative">
+        <!-- Node indicator -->
+        <div class="absolute -left-[41px] md:-left-[57px] top-1 w-5 h-5 bg-background border-4 border-gray-600 rounded-full z-10 transition-colors duration-500 group-hover:border-gray-400"></div>
+        
+        <div class="glass-card p-8 md:p-10 relative group overflow-hidden transition-all duration-500 hover:border-gray-500/50">
+          <div class="absolute inset-0 bg-gradient-to-br from-gray-800/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+          
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 z-10 relative">
+            <div>
+              <h3 class="text-3xl font-bold mb-1 text-white group-hover:text-gray-300 transition-colors">Infosys Limited</h3>
+              <p class="text-xl text-gray-400 font-medium">Senior Systems Engineer</p>
+            </div>
+            <div class="mt-4 md:mt-0 px-5 py-2 rounded-full bg-white/5 border border-white/10 text-gray-300 font-bold tracking-wide text-sm whitespace-nowrap">
+              July 2019 – Dec 2021
+            </div>
+          </div>
+
+          <div class="space-y-5 text-gray-400 relative z-10 leading-relaxed">
+            <div class="flex items-start gap-4">
+              <span class="text-gray-500 mt-1 text-xl transition-colors duration-500 group-hover:text-gray-400">▹</span>
+              <div>
+                <strong class="text-gray-200 tracking-wide">AI-Driven Quality Assurance:</strong> Engineered robust synthetic test data generation protocols using deep AI techniques, massively increasing actionable data availability and scaling QA pipeline capabilities for widespread enterprise applications.
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <span class="text-gray-500 mt-1 text-xl transition-colors duration-500 group-hover:text-gray-400">▹</span>
+              <div>
+                <strong class="text-gray-200 tracking-wide">Full-Stack Platform Development:</strong> Programmed a high-utility Test Data Management web platform natively automating deeply complex system workflows, environments, and data categorization procedures.
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <span class="text-gray-500 mt-1 text-xl transition-colors duration-500 group-hover:text-gray-400">▹</span>
+              <div>
+                <strong class="text-gray-200 tracking-wide">Backend System Delivery:</strong> Utilized Java and the Spring Boot ecosystem to construct robust, low-latency microservices ensuring flawless, seamless synchronization with high-volume responsive front-end components.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       
-      <!-- Baker Hughes -->
-      <div class="glass-card p-10 relative overflow-hidden group">
-        <div class="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-        <h3 class="text-2xl font-bold mb-2">Baker Hughes</h3>
-        <p class="text-primary font-semibold mb-4">Enterprise Collaboration</p>
-        <p class="text-gray-400 mb-6 flex-grow">Delivered a high-performance logistics platform partnering with stakeholders to ensure top-tier industry standards.</p>
-        <div class="inline-block bg-primary/10 text-primary border border-primary/20 rounded-full px-4 py-2 font-bold mt-auto">
-          98% Defect-Free Delivery
-        </div>
-      </div>
     </div>
   </section>
 
@@ -74,22 +162,25 @@
     <div class="glass-card p-12 relative overflow-hidden border-primary/30">
       <div class="absolute inset-0 bg-gradient-to-b from-blue-900/10 to-transparent"></div>
       <h2 class="text-3xl md:text-5xl font-bold mb-8 text-center glow-text">AI Innovation Hub</h2>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
         <div class="bg-black/50 p-6 rounded-xl border border-gray-800 hover:border-primary/50 transition-colors">
           <div class="text-4xl mb-4">💡</div>
           <h4 class="text-xl font-bold mb-2">tcs^AI Awards</h4>
-          <p class="text-gray-400">Winner of Idea Igniter (2026) and Spark (2025) awards for excellence in AI-driven solutions.</p>
+          <p class="text-gray-400">Winner of Idea Igniter (2026) and Spark (2025) awards for excellence in AI-driven
+            solutions.</p>
         </div>
         <div class="bg-black/50 p-6 rounded-xl border border-gray-800 hover:border-primary/50 transition-colors">
           <div class="text-4xl mb-4">🤖</div>
           <h4 class="text-xl font-bold mb-2">GitHub Copilot</h4>
-          <p class="text-gray-400">Microsoft Certified GitHub Copilot & Admin. Expertise in accelerated development using AI.</p>
+          <p class="text-gray-400">Microsoft Certified GitHub Copilot & Admin. Expertise in accelerated development
+            using AI.</p>
         </div>
         <div class="bg-black/50 p-6 rounded-xl border border-gray-800 hover:border-primary/50 transition-colors">
           <div class="text-4xl mb-4">🧪</div>
           <h4 class="text-xl font-bold mb-2">AI-Driven QA</h4>
-          <p class="text-gray-400">Developed synthetic test data generation using AI, significantly scaling enterprise QA processes.</p>
+          <p class="text-gray-400">Developed synthetic test data generation using AI, significantly scaling enterprise
+            QA processes.</p>
         </div>
       </div>
     </div>
@@ -101,7 +192,7 @@
     <div class="flex flex-wrap justify-center gap-6">
       <div class="glass-card px-8 py-4 flex items-center gap-3 cursor-default hover:scale-110 shadow-lg">
         <span class="text-red-500 font-bold text-2xl">&lt;/&gt;</span>
-        <span class="font-semibold text-lg">Angular 2-18</span>
+        <span class="font-semibold text-lg">Angular 2-20</span>
       </div>
       <div class="glass-card px-8 py-4 flex items-center gap-3 cursor-default hover:scale-110 shadow-lg">
         <span class="text-blue-500 font-bold text-2xl">TS</span>
@@ -134,8 +225,10 @@
         <p class="text-gray-500">Senior Software Engineer | Trivandrum, IN</p>
       </div>
       <div class="flex gap-6">
-        <a href="mailto:mcv2468@gmail.com" class="text-gray-400 hover:text-primary transition-colors font-semibold">Email</a>
-        <a href="https://linkedin.com/in/vaisakhmc" target="_blank" class="text-gray-400 hover:text-primary transition-colors font-semibold">LinkedIn</a>
+        <a href="mailto:mcv2468@gmail.com"
+          class="text-gray-400 hover:text-primary transition-colors font-semibold">Email</a>
+        <a href="https://linkedin.com/in/vaisakhmc" target="_blank"
+          class="text-gray-400 hover:text-primary transition-colors font-semibold">LinkedIn</a>
         <a href="tel:+918921840089" class="text-gray-400 hover:text-primary transition-colors font-semibold">Phone</a>
       </div>
     </div>
