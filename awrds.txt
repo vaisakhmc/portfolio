@@ -1,0 +1,64 @@
+🏆 Top-Tier Innovation & Excellence (TCS)
+These awards represent your highest honors as a Senior Engineer and AI Specialist.
+
+tcs^AI Idea Igniter | Feb 27, 2026
+
+Scope: Recognized for pioneering contributions to AI-driven process improvements and high-impact innovation ideas.
+
+Maitree Prize | Feb 2026
+
+Scope: A prestigious award for exceptional project delivery, leadership, and community contribution within the TCS ecosystem.
+
+tcs^AI Spark | Dec 9, 2025
+
+Scope: Awarded for the conceptualization and successful implementation of AI-centric solutions.
+
+Awards for Excellence | Nov 7, 2025
+
+Scope: Corporate-level recognition for consistently high delivery quality and technical mastery.
+
+🌟 Performance & Delivery Awards (TCS)
+Recognition for immediate impact and consistent stakeholder satisfaction.
+
+On The Spot Award | Nov 2025
+
+Reason: Immediate recognition for tackling critical project challenges and delivering rapid results.
+
+Service & Commitment Award | Jul 31, 2025
+
+Reason: Recognition of dedicated service and consistent high-value contributions to the organization.
+
+On the Spot (Team) Award | Oct 17, 2024
+
+Reason: Collaborative success in delivering enterprise-level solutions for global clients (IKEA/Baker Hughes).
+
+A-Band Performance Ratings | Consecutive 2024, 2025
+
+Scope: The highest possible performance rating at TCS, awarded to the top percentage of employees for delivery excellence.
+
+🚀 Strategic Initiatives & Growth (TCS)
+Awards highlighting your leadership and proactive approach to technology.
+
+Special Initiative Award | Aug 18, 2025 & Jun 15, 2025
+
+Scope: Two-time recipient for driving initiatives that improved project workflows beyond standard responsibilities.
+
+Xcelerate Warrior Certificate | May 22, 2024
+
+Scope: Career management award for rapid upskilling and technical agility.
+
+Feedback Enabler Certificate | Aug 23, 2023
+
+Scope: Recognition for fostering a culture of mentorship and constructive feedback within the development team.
+
+💎 Early Career Impact (Infosys)
+Your foundation in security and full-stack development.
+
+Insta Award | Sep 2021
+
+Context: Contributed to the design and development of Healthcare Validation and Synthetic Data Interfaces.
+
+Technical Highlight: Successfully implemented SSO Authentication and Notification APIs used across multiple enterprise solutions.
+
+Summary for your "About Me" Section:
+"A highly decorated Senior Engineer with 12+ corporate honors, including the tcs^AI Idea Igniter and the Maitree Prize. Proven track record of high-performance delivery, from implementing SSO Authentication at Infosys to leading AI-driven innovation at TCS."
